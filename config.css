@@ -1,5 +1,13 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Define dos columnas, una para el logo y otra para el contenido */
+    grid-template-rows: auto 1fr; /* Define dos filas: una para el header y otra para el contenido */
+    gap: 10px; /* Espacio entre las celdas de la cuadrícula */
+    height: 100vh; /* Ajusta la altura al 100% de la pantalla */
 }

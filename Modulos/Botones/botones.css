@@ -1,0 +1,28 @@
+.fila-botones {
+    display: flex;
+    flex-direction: row;   /* los pone en fila horizontal */
+    gap: 10px;              /* espacio entre botones */
+    flex-wrap: nowrap;     /* evita que bajen a otra línea */
+    overflow-x: auto;      /* permite hacer scroll si no caben */
+  }
+  
+  .botones {
+    background-color: #e0f0ff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .botones p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .Global {
+    width: 12px;
+    height: 12px;
+  }
+  

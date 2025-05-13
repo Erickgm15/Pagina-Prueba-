@@ -1,5 +1,6 @@
 .Panel {
-    height: 66px;
+    height: 70px;
+    width: 93rem;
     background-color: rgb(242, 242, 248);
     border: 1px solid black;
     padding: 5px;
@@ -27,3 +28,10 @@
     margin: 0%;
     padding: auto; 
 }
+
+.Welcome{
+    margin: 0%;
+    padding: 0%;
+}
+
+
