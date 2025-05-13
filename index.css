@@ -1,0 +1,29 @@
+.Panel {
+    height: 66px;
+    background-color: rgb(242, 242, 248);
+    border: 1px solid black;
+    padding: 5px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 15px; 
+}
+
+.Deliver{
+    
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+.Track{
+    
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.All{
+    margin: 0%;
+    padding: auto; 
+}
