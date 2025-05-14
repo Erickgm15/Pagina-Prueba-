@@ -1,28 +1,12 @@
-.fila-botones {
-    display: flex;
-    flex-direction: row;   /* los pone en fila horizontal */
-    gap: 10px;              /* espacio entre botones */
-    flex-wrap: nowrap;     /* evita que bajen a otra línea */
-    overflow-x: auto;      /* permite hacer scroll si no caben */
-  }
+.Marco{
+  height: 90px;
+  width: 1440px;
+border-bottom: 1px solid white;
+display: grid;
+align-items: center;
   
-  .botones {
-    background-color: #e0f0ff;
-    padding: 6px 12px;
-    border-radius: 6px;
-    white-space: nowrap;
-    cursor: pointer;
-  }
-  
-  .botones p {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  
-  .Global {
-    width: 12px;
-    height: 12px;
-  }
-  
+}
+
+.ImagenB{
+  padding-left: 6,5rem;
+}
