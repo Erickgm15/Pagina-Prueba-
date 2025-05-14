@@ -1,24 +1,23 @@
 .Marco1 {
-    width: 1440px;
-    height: 42px;
-    margin: auto;
-    display: flex;  
-    align-items: center;
-    padding-top: 10rem;
-  }
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column; /* Asegura que todo el contenido esté apilado verticalmente */
+  align-items: center;
+  padding-top: 3rem; 
+}
   
   .rectangulo {
-    width: 1400px;
-    height: 265px;
-    background-color: #212844;
-    border-radius: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    color: white;
-    position: absolute; 
-  }
+     width: 1400px;
+      background-color: #212844;
+      border-radius: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      color: white;
+    }
+  
   
   .texto {
     display: flex;
