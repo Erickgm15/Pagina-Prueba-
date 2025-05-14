@@ -1,0 +1,21 @@
+.Marco1{
+
+    width: 1440px;
+    height: 42px;
+    margin: auto;
+    display: flex;  
+    align-items: center;
+    padding-top: 10rem;
+}
+
+
+.rectangulo{
+    width: 1400px;
+    height: 265px;
+    background-color: #212844;
+    border-radius: 2rem;
+}
+
+.Reloj{
+    grid: 25px;
+}

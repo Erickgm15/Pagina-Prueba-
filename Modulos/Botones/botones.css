@@ -1,12 +1,14 @@
 .Marco{
-  height: 90px;
   width: 1440px;
-border-bottom: 1px solid white;
-display: grid;
-align-items: center;
+  height: 42px;
+  margin: auto;
   
+  display: flex;  
+  align-items: center;
+
+
 }
 
-.ImagenB{
-  padding-left: 6,5rem;
+.Imagen33 {
+  padding-left: 5rem;
 }
