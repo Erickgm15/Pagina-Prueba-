@@ -1,21 +1,32 @@
-.Marco1{
-
+.Marco1 {
     width: 1440px;
     height: 42px;
     margin: auto;
     display: flex;  
     align-items: center;
     padding-top: 10rem;
-}
-
-
-.rectangulo{
+  }
+  
+  .rectangulo {
     width: 1400px;
     height: 265px;
     background-color: #212844;
     border-radius: 2rem;
-}
-
-.Reloj{
-    grid: 25px;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    position: absolute; 
+  }
+  
+  .texto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .Reloj {
+    width: 15rem;
+  }
+  

@@ -1,0 +1,19 @@
+.SecTelefono{
+    margin-top: 30rem; 
+    display: flex;
+    justify-content: center;
+  
+}
+
+.Contenedort{
+    
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.T1{
+    font-family: HK Grotesk;
+font-size: 1.5rem;
+  color: #000;
+  left: -100rem;
+}
