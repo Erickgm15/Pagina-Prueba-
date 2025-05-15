@@ -21,7 +21,8 @@
    font-family: HK Grotesk;
    font-size: 1.5rem;
     color: #000;
-    margin-bottom: 1rem; }
+    margin-bottom: 2rem;
+   margin-left: 4rem; }
 
 .Marco3{
     display: flex;
@@ -33,12 +34,23 @@
 
 .Marco3 img {
     width: 200px;    
+    height: 150px;
+    border-radius: 5rem;
+   
+  }
+
+  .FlechaIcon {
+    width: 100px;   
     height: auto;
-    border-radius: 0.5rem;
   }
 
-  .Telefono{
-    height: 132px;
-    width: 172px;
+  .EncabezadoShop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
+
+
+ 

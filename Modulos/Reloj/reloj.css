@@ -2,7 +2,7 @@
   width: 100%;
   margin: auto;
   display: flex;
-  flex-direction: column; /* Asegura que todo el contenido esté apilado verticalmente */
+  flex-direction: column;
   align-items: center;
   padding-top: 3rem; 
 }
