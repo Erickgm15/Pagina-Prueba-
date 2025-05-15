@@ -1,0 +1,44 @@
+.SecShop{
+    margin-top: 20px;
+    padding-top: 2rem; 
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    
+  }
+  
+  .ContenedorS{
+    
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; 
+  }
+  
+  .T2{
+   font-family: HK Grotesk;
+   font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 1rem; }
+
+.Marco3{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;       
+    margin-top: 0.5rem; 
+}
+
+
+.Marco3 img {
+    width: 200px;    
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  .Telefono{
+    height: 132px;
+    width: 172px;
+  }
+
