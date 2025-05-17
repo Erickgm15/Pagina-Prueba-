@@ -1,6 +1,68 @@
-.Footer{
-    height: 592px;
-    width: 1440px;
+.Footer {
+    width: 100%;          
+    max-width: 1440px;    
+    margin: 0 auto;       
     background-color: #008ECC;
-    top: 2443px;
+    padding: 3rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;      
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.ColumnaIzquierda {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ContactIcons2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Whap, .Call {
+    width: 100px;
+    height: auto;
+}
+
+.IconosDerecha {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.Lista1 {
+    width: 219px;
+    height: 352px;
+}
+
+.Lista2 {
+    width: 224px;
+    height: 278px;
+}
+
+
+.linea {
+    width: 120%; 
+    max-width: none;
+    border-bottom: 2px solid #05ABF3;
+    margin: 2rem auto 1rem auto;
+    height: 0;
+}
+
+
+.Footer p {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: HK Grotesk, sans-serif;
+    font-size: 0.9rem;
+    margin-top: 0;
 }
